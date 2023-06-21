@@ -60,21 +60,6 @@ export const RecipeDetails = () => {
           </ul>
         </div>
       </div>
-
-      <div>
-        <div>
-          <h1 className="text-4xl mt-8 mb-8">Instructions</h1>
-          <ul
-            style={{
-              textAlign: "justify"
-            }}
-            className="list-none list-inside"
-          >
-            {recipe.instructions.map((instruction, index) => (
-              <li key={index}>{instruction}</li>
-            ))}
-          </ul>
-        </div>
       </div>
     </div>
   )
